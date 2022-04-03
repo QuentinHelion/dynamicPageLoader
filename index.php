@@ -9,6 +9,6 @@
     <title><?= $pageInfos["title"] ?></title>
   </head>
   <body>
-    <?= loadPageContent("backoffice")  ?>
+    <?= loadPageContent("backoffice");  ?>
   </body>
 </html>

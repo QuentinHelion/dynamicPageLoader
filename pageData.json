@@ -1,0 +1,14 @@
+[{
+  "page" : "Backoffice",
+  "list" : ["#","Nom","Prénom","Addresse mail", "Téléphone", "Adresse"],
+  "modifyButton" : true,
+  "deleteButton" : true
+},
+
+{
+  "page" : "FrontOffice",
+  "list" : ["#","Nom","Prénom","Addresse mail", "Téléphone", "Adresse"],
+  "modifyButton" : false,
+  "deleteButton" : true
+}
+]
