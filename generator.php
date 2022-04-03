@@ -49,12 +49,21 @@
       $pageData = searchPageJson("Backoffice");
       if(!empty($pageData)){
         // print_r($pageData);
+<<<<<<< HEAD
         echo "Title: ".$pageData->page."<br>
               Modify button: ".$pageData->modifyButton."<br>
               Delete button: ".$pageData->deleteButton."<br>";
         foreach ($pageData->list as $key) {
           echo $key;
         }
+=======
+      echo "Title: ".$pageData->page."<br>
+            Modify button: ".$pageData->modifyButton."<br>
+            Delete button: ".$pageData->deleteButton."<br>";
+      foreach ($pageData->list as $key) {
+        echo $key;
+      }
+>>>>>>> bf8070e880aa412433831ea581c0ef90b0a5a1e9
       }
     }
 
