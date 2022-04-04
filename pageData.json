@@ -1,14 +1,25 @@
 [{
   "page" : "Backoffice",
-  "list" : ["#","Nom","Prénom","Addresse mail", "Téléphone", "Adresse"],
+  "list" : [{"title":"#",             "db":"id"},
+            {"title":"Nom",           "db":"lastname"},
+            {"title":"Prénom",        "db":"firstname"},
+            {"title":"Addresse mail", "db":"email"},
+            {"title":"Téléphone",     "db":"phone"},
+            {"title":"Adresse",       "db":"address"}],
   "modifyButton" : true,
   "deleteButton" : true
 },
-
 {
-  "page" : "FrontOffice",
+  "page" : "Frontoffice",
   "list" : ["#","Nom","Prénom","Addresse mail", "Téléphone", "Adresse"],
   "modifyButton" : false,
   "deleteButton" : true
+},
+{
+  "page" : "Arrayshow",
+  "list" : ["#","Nom","Prénom","Addresse mail", "Téléphone", "Adresse"],
+  "modifyButton" : false,
+  "deleteButton" : false
 }
+
 ]
